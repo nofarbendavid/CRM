@@ -1,6 +1,6 @@
 CRM system 
 
-Contain 2 main screens:
+Contain 4 main screens:
 1. login screen
 
       -> allow the user to login with username and password.
