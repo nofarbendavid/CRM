@@ -3,21 +3,23 @@ CRM system
 Contain 2 main screens:
 1. login screen
 
--> allow the user to login with username and password.
+      -> allow the user to login with username and password.
 
 2. customers list creen 
 
--> allow to view the customer list.
--> allow the delete a customer.
+      -> allow to view the customer list.
+      
+      -> allow the delete a customer.
 
 3. customer view screen 
 
--> allow to view customer details (full name, gender, DOB, address, profile image).
--> allow to view customer transactions.
+      -> allow to view customer details (full name, gender, DOB, address, profile image).
+      
+      -> allow to view customer transactions.
 
 4. create new customer screen 
 
--> allow to add new customer.     
+      -> allow to add new customer.     
 
 
 
