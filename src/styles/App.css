@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+#root {
+  height: 100%; }
+
+.header {
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px; }
+
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 13px; }
+
+input[type="text"], input[type="password"], input[type="file"] {
+  background-color: #EEF0F2;
+  width: 170px;
+  height: 20px; }
+
+button {
+  cursor: pointer;
+  width: 90px;
+  height: 25px;
+  background-color: #5C97C1;
+  color: #FFFFFF;
+  margin-right: 10px; }
+
+img {
+  border-radius: 2px; }
+
+.App {
+  height: 100%;
+  text-align: center;
+  background-color: #34516E;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.login-screen-container, .customers-list-screen-container, .create-new-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .login-screen-container .section, .customers-list-screen-container .section, .create-new-container .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px; }
+    .login-screen-container .section .title, .customers-list-screen-container .section .title, .create-new-container .section .title {
+      color: #A6A1A0;
+      padding-right: 10px;
+      font-size: 17px; }
+  .login-screen-container .button-section, .customers-list-screen-container .button-section, .create-new-container .button-section {
+    padding: 20px; }
+
+.customer-list-section {
+  padding: 10px;
+  max-height: 450px;
+  overflow-y: scroll;
+  align-self: center;
+  width: fit-content; }
+
+.customer-transactions-section {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+  align-self: center;
+  width: fit-content; }
+
+.ReactTable {
+  color: #A6A1A0;
+  border-radius: 5px;
+  margin: 0 15px; }
+  .ReactTable .rt-thead {
+    text-transform: uppercase; }
+    .ReactTable .rt-thead .rt-th input {
+      opacity: 0.8; }
+  .ReactTable .rt-td {
+    text-transform: capitalize; }
+
+.add-new-button button {
+  width: 150px; }
+
+.customer-view-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .customer-view-container .customer-view-header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .customer-view-container .customer-view-header-section img {
+      height: 250px;
+      width: 200px; }
+  .customer-view-container .customer-details .header {
+    text-transform: capitalize; }
+  .customer-view-container .customer-details .customer-additional-info {
+    display: flex;
+    flex-direction: column; }
+    .customer-view-container .customer-details .customer-additional-info .property {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      text-transform: capitalize;
+      color: #FFFFFF; }
+      .customer-view-container .customer-details .customer-additional-info .property .property-key {
+        text-decoration: underline;
+        padding: 0 7px 7px 20px; }

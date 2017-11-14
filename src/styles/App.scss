@@ -1,0 +1,129 @@
+@import 'index.scss';
+
+.App {
+  height: $max-height;
+  text-align: center;
+  background-color: #34516E;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+.login-screen-container, .customers-list-screen-container, .create-new-container{
+  height: $max-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $padding-narrow;
+
+    .title{
+      color: $text-color-gray;
+      padding-right: $padding-narrow;
+      font-size: 17px;
+    }
+  }
+
+  .button-section{
+    padding: $padding-wide;
+  }
+}
+
+
+
+.customer-list-section {
+  padding: $padding-narrow;
+  max-height: 450px;
+  overflow-y: scroll;
+  align-self: center;
+  width: fit-content;
+}
+
+.customer-transactions-section{
+  padding: $padding-narrow;
+  max-height: 300px;
+  overflow-y: scroll;
+  align-self: center;
+  width: fit-content;
+}
+
+
+
+.ReactTable{
+  color: $text-color-gray;
+  border-radius: 5px;
+  margin: 0 15px;
+
+  .rt-thead{
+    text-transform: uppercase;
+
+    .rt-th{
+      input{
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .rt-td{
+    text-transform: capitalize;
+  }
+
+}
+
+.add-new-button{
+  button{
+    width: 150px;
+  }
+}
+
+
+
+.customer-view-container{
+  height: $max-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .customer-view-header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img{
+      height: 250px;
+      width:  200px;
+    }
+  }
+
+  .customer-details{
+    .header{
+      text-transform: capitalize;
+    }
+
+    .customer-additional-info{
+      display: flex;
+      flex-direction: column;
+
+      .property{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-transform: capitalize;
+        color: $text-color-white;
+
+        .property-key{
+          text-decoration: underline;
+          padding: 0 7px 7px 20px;
+        }
+      }
+    }
+  }
+}
+
+
+

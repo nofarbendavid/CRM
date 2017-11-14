@@ -1,0 +1,52 @@
+$max-height: 100% ;
+$padding-narrow :10px;
+$padding-wide :20px;
+$text-color-white: #FFFFFF;
+$text-color-gray: #A6A1A0;
+
+
+html, body{
+  height: $max-height;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+#root{
+  height: $max-height;
+}
+
+.header{
+  color: $text-color-white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: $padding-wide;
+}
+
+input, button{
+  border:none;
+  outline:none;
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+input[type="text"], input[type="password"], input[type="file"]{
+  background-color: #EEF0F2;
+  width: 170px;
+  height: 20px;
+}
+
+button{
+  cursor: pointer;
+  width: 90px;
+  height: 25px;
+  background-color: #5C97C1;
+  color: $text-color-white;
+  margin-right: 10px;
+}
+
+
+img{
+  border-radius: 2px;
+}
