@@ -18,7 +18,10 @@ password: Pass@word1
 
 
 Steps:
-clone / download repository
-npm install
-npm start
+
+1. clone / download repository
+
+2. npm install
+
+3. npm start
                         
